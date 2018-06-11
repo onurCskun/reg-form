@@ -1,0 +1,207 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+  background: url("../images/bg.png") fixed center center;
+  background-size: cover;
+  color: white;
+}
+html, body {
+  overflow-x: hidden;
+}
+.hr {
+  border-bottom: 1px solid white;
+  opacity: 0.25;
+  margin: 5% auto 5% auto;
+}
+.header {
+  padding: 1%;
+  margin-bottom: 0;
+  opacity: 0.6;
+}
+
+.ieeeytu_logo {
+  float: right;
+  margin-right: 3%;
+  margin-top: 1.5%;
+  opacity: 0.8;
+}
+.iltek_h {
+  width: 100%;
+  padding-bottom: 1%;
+}
+h3.head {
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 160%;
+}
+
+label {
+  font-size: 16px;
+}
+
+.frm {
+  margin-top: -4%;
+  background: rgba(0, 0, 0, .7);
+  padding: 10%;
+  padding-top: 1%;
+  padding-bottom: 5%;
+}
+.submit {
+  width: 100%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+span {
+color: black;
+}
+.btn span.glyphicon {
+opacity: 0;
+color: white;
+}
+.btn.active span.glyphicon {
+opacity: 1;
+color: white;
+}
+
+.perm {
+opacity: 0.5;
+}
+
+.perm.active {
+opacity: 1;
+}
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  background: red;
+  cursor: inherit;
+  display: block;
+}
+.file-input-label {
+	padding: 0px 10px;
+  background-color: white;
+	display: table-cell;
+	vertical-align: middle;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+input[readonly] {
+  cursor: text !important;
+}
+
+.spoCont {
+    background: rgba(0, 0, 0, .7);
+    margin-top: 0.5%;
+    margin-bottom: 5%;
+    padding: 1%;
+}
+
+.spoField {
+
+}
+
+.rws {
+    margin-bottom: 3%;
+}
+
+
+.footer {
+  background: rgba(0, 0, 0,.7);
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.span8 {
+  padding: 0;
+}
+.span4 {
+  padding-left: 15px;
+}
+
+span.glyphicon {
+  color: white;
+}
+.eml {
+}
+.mail {
+  font-size:14px;
+  padding-left:5px;
+  text-decoration: none;
+  font-family:arial;
+  margin-left: -7.3333%;
+}
+
+.socm {
+  margin-top: 1%;
+}
+.mail:hover {
+    text-decoration: none;
+}
+.span3 {
+  padding-left: 15px;
+  margin: 0;
+  margin-top: -1%;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+}
+.hrf {
+  width:90%;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+}
+
+.cnt {
+  padding-left: 4%;
+}
+
+a.btn{
+  margin-right: 1%;
+  margin-top: 1%;
+  width: 40px;
+  height: 40px;
+}
+
+.btn-social-icon>:first-child {
+  color: white;
+  line-height: 40px;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #428bca ; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 20px; /* Rounded corners */
+    font-size: 24px; /* Increase font size */
+    opacity: 0.5;
+}
+
+#myBtn:hover {
+    background-color: #286090; /* Add a dark-grey background on hover */
+}

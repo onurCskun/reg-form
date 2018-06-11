@@ -1,0 +1,44 @@
+body {
+  background: url("../images/bg.png") fixed center center;
+  background-size: cover;
+  color: white;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.frm {
+  background: rgba(0, 0, 0,.7);
+  margin-bottom: 10%;
+  margin-top: 7%;
+  padding: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.header {
+  padding: 1%;
+}
+
+.ieeeytu_logo {
+  float: right;
+  margin-right: 3%;
+  margin-top: 1.5%;
+  opacity: 0.7;
+}
+.iltek_h {
+  width: 100%;
+}
+
+.msg {
+  font-family: Verdana, Geneva, sans-serif;
+  margin-bottom: 10%;
+  font-size: 16px;
+}
+.btn {
+  width: 200px;
+}
+.center {
+  text-align: center;
+}
